@@ -5,6 +5,7 @@ const myPeer = new Peer(undefined, {
   host: '/',
   port: 3001
 })
+console.log(myPeer,"...............")
 const myVideo = document.createElement('video')
 myVideo.muted = true
 const peers = {}
